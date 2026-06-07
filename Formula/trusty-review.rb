@@ -28,6 +28,6 @@ class TrustyReview < Formula
   end
 
   test do
-    system bin/"trusty", "--version"
+    system bin/"trusty-review", "--version"
   end
 end

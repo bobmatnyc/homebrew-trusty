@@ -28,6 +28,6 @@ class TrustyGitAnalytics < Formula
   end
 
   test do
-    system bin/"trusty", "--version"
+    system bin/"tga", "--version"
   end
 end

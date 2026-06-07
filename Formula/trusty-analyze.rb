@@ -28,6 +28,6 @@ class TrustyAnalyze < Formula
   end
 
   test do
-    system bin/"trusty", "--version"
+    system bin/"trusty-analyze", "--version"
   end
 end
