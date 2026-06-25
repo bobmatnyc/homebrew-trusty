@@ -5,21 +5,21 @@
 class TrustyMemory < Formula
   desc "trusty-tools: trusty-memory binary"
   homepage "https://github.com/bobmatnyc/trusty-tools"
-  version "0.16.0"
+  version "0.17.0"
 
   # macOS arm64 (Apple Silicon) pre-built binary
   on_macos do
     on_arm do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-memory-v0.16.0/trusty-memory-0.16.0-aarch64-apple-darwin.tar.gz"
-      sha256 "07a0cb5d72ca0b2150c386ad7c8524762a7a00122e4208a528b1403aff713b6f"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-memory-v0.17.0/trusty-memory-0.17.0-aarch64-apple-darwin.tar.gz"
+      sha256 "52dad01e8f8ef65bc02b5679817df30acddd1915da928e0804d55b1c0d0e63ec"
     end
   end
 
   # Linux x86_64 (glibc 2.17+) pre-built binary
   on_linux do
     on_intel do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-memory-v0.16.0/trusty-memory-0.16.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b5ecaa76e104c3e33ef275ff7a31f96065fceac61e5bd97c446c108d4ae33c01"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-memory-v0.17.0/trusty-memory-0.17.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "93a7621bb6083241a8179f56ab6f899ac4ae5c895a3521d1843e6643b238e03a"
     end
   end
 
