@@ -5,21 +5,21 @@
 class TrustyReview < Formula
   desc "trusty-tools: trusty-review binary"
   homepage "https://github.com/bobmatnyc/trusty-tools"
-  version "0.6.0"
+  version "0.6.1"
 
   # macOS arm64 (Apple Silicon) pre-built binary
   on_macos do
     on_arm do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-review-v0.6.0/trusty-review-0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "63bd830d9bc391b41f6b52f993aa7e0d2b10efa88b5574133b254ef7dead10be"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-review-v0.6.1/trusty-review-0.6.1-aarch64-apple-darwin.tar.gz"
+      sha256 "e444ab2f78475465d93dcfd0df2622ed69f141893c50e30d2678d89cde8c7d8f"
     end
   end
 
   # Linux x86_64 (glibc 2.17+) pre-built binary
   on_linux do
     on_intel do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-review-v0.6.0/trusty-review-0.6.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "aae31a73bfc8738fdb9513db90f6e108f1aaa2d6176d29113e445d2c8d029e6b"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-review-v0.6.1/trusty-review-0.6.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "13164bb119cc9dd511b749f98c822412ff5acf514b2cc72adb00a26935c89981"
     end
   end
 
