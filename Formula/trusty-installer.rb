@@ -5,21 +5,21 @@
 class TrustyInstaller < Formula
   desc "trusty-tools: trusty-installer binary"
   homepage "https://github.com/bobmatnyc/trusty-tools"
-  version "0.4.9"
+  version "0.4.10"
 
   # macOS arm64 (Apple Silicon) pre-built binary
   on_macos do
     on_arm do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-installer-v0.4.9/trusty-installer-0.4.9-aarch64-apple-darwin.tar.gz"
-      sha256 "3bbe7256033e605639756a0faf75ea54fb65c8363a43681b071a57974fb8a8c4"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-installer-v0.4.10/trusty-installer-0.4.10-aarch64-apple-darwin.tar.gz"
+      sha256 "bcd469da3ee85e753a7f4731b15dc2a43a4078ef7e1a602f9939e8da40aa30b8"
     end
   end
 
   # Linux x86_64 (glibc 2.17+) pre-built binary
   on_linux do
     on_intel do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-installer-v0.4.9/trusty-installer-0.4.9-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cd3d99e5cbdb4371cd91d492b1d63d05d01b2342fb39ed56c2adf9e855ff22f6"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-installer-v0.4.10/trusty-installer-0.4.10-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2950964275d1203a8a400a800a3a861efc38442e7201f39859cbb6eb0eea537f"
     end
   end
 
