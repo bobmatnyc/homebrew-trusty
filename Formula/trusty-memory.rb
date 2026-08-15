@@ -25,7 +25,6 @@ class TrustyMemory < Formula
 
   def install
     bin.install "trusty-memory"
-    bin.install "trusty-bm25-daemon"
   end
 
   test do
