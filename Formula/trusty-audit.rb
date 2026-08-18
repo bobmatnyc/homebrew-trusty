@@ -5,21 +5,21 @@
 class TrustyAudit < Formula
   desc "trusty-tools: trusty-audit binary"
   homepage "https://github.com/bobmatnyc/trusty-tools"
-  version "0.1.0"
+  version "0.4.0"
 
   # macOS arm64 (Apple Silicon) pre-built binary
   on_macos do
     on_arm do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-audit-v0.1.0/trusty-audit-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "abaec0d47f437f84390cad12e66e2767c539a0e68c0301802eaeee10b5a33d43"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-audit-v0.4.0/trusty-audit-0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "061b296f76a5530d1cb2b4a5e4a3ab7b0c0d593a57e150dde53f9a41712c43b5"
     end
   end
 
   # Linux x86_64 (glibc 2.17+) pre-built binary
   on_linux do
     on_intel do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-audit-v0.1.0/trusty-audit-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1f913fb5f9f079096f0b2e2cbae832384b5d35f2896c8b764cd4cccd4a094c40"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-audit-v0.4.0/trusty-audit-0.4.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2852f6c44123eb06d19a902d8907a6fc16d1752df95eab3cc26f7a8a27cc3d49"
     end
   end
 
