@@ -5,21 +5,21 @@
 class TrustyGitAnalytics < Formula
   desc "trusty-tools: trusty-git-analytics binary"
   homepage "https://github.com/bobmatnyc/trusty-tools"
-  version "3.0.0"
+  version "3.1.0"
 
   # macOS arm64 (Apple Silicon) pre-built binary
   on_macos do
     on_arm do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/tga-v3.0.0/trusty-git-analytics-3.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "c6331e495b7e86e47fd3d82d4efa5bba0dc7f7d202995baae89ec5c7582b56e9"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/tga-v3.1.0/trusty-git-analytics-3.1.0-aarch64-apple-darwin.tar.gz"
+      sha256 "4020318a18ce19a08c3c091afddb5d43e63824c6d13e9f5a964c8ce3dc8491b6"
     end
   end
 
   # Linux x86_64 (glibc 2.17+) pre-built binary
   on_linux do
     on_intel do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/tga-v3.0.0/trusty-git-analytics-3.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "86c9e193b1ab36c7a1f891a790a4c48e889d77533239a089684bb0acf6a05ab5"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/tga-v3.1.0/trusty-git-analytics-3.1.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f9fffb681c6cf790172ae210f29855d335939d95ad6c5da585d188fb2e6271ce"
     end
   end
 
