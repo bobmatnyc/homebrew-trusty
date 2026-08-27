@@ -5,21 +5,21 @@
 class TrustyMpm < Formula
   desc "trusty-tools: trusty-mpm binary"
   homepage "https://github.com/bobmatnyc/trusty-tools"
-  version "1.5.4"
+  version "1.5.5"
 
   # macOS arm64 (Apple Silicon) pre-built binary
   on_macos do
     on_arm do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-mpm-v1.5.4/trusty-mpm-1.5.4-aarch64-apple-darwin.tar.gz"
-      sha256 "a51599a8e5f50b58030cf95be4d2a423783a2f7a17f324c4276b46ac7da31cca"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-mpm-v1.5.5/trusty-mpm-1.5.5-aarch64-apple-darwin.tar.gz"
+      sha256 "6b09e83d1a6353d472cd17f81ef8c3dac42c3115984d281566915f8410b3b499"
     end
   end
 
   # Linux x86_64 (glibc 2.17+) pre-built binary
   on_linux do
     on_intel do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-mpm-v1.5.4/trusty-mpm-1.5.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c174b08ddeef8221db7a11dd1d9e61d5bc9636310964af862c7db30eb22fc2d4"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-mpm-v1.5.5/trusty-mpm-1.5.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c14ffbfb4a24bac05fd2a7c4a236c0b1e133c07735083623923762f73d5c441f"
     end
   end
 
