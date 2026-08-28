@@ -5,21 +5,21 @@
 class TrustyAnalyze < Formula
   desc "trusty-tools: trusty-analyze binary"
   homepage "https://github.com/bobmatnyc/trusty-tools"
-  version "0.12.0"
+  version "0.12.1"
 
   # macOS arm64 (Apple Silicon) pre-built binary
   on_macos do
     on_arm do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-analyze-v0.12.0/trusty-analyze-0.12.0-aarch64-apple-darwin.tar.gz"
-      sha256 "dc4c3807fddd7217b72d0283ef0e70a83e3ca6038f6796c70aaf7328abaffb43"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-analyze-v0.12.1/trusty-analyze-0.12.1-aarch64-apple-darwin.tar.gz"
+      sha256 "42e7e163510c8b55151616f0bc50da60b6ecf9e9c3c52ba4cabc6c7c6555cf9a"
     end
   end
 
   # Linux x86_64 (glibc 2.17+) pre-built binary
   on_linux do
     on_intel do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-analyze-v0.12.0/trusty-analyze-0.12.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3d16c9d651ecc7b308fd884214e27d56eb54bcda6498f7ce7b94548d93fe6d5b"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-analyze-v0.12.1/trusty-analyze-0.12.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5a1ab12d909a1bcbe9af53987d867f77c6dd5b5bd92c20f11ba01a6bc8d1d850"
     end
   end
 
