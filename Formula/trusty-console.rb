@@ -5,21 +5,21 @@
 class TrustyConsole < Formula
   desc "trusty-tools: trusty-console binary"
   homepage "https://github.com/bobmatnyc/trusty-tools"
-  version "0.9.0"
+  version "0.9.1"
 
   # macOS arm64 (Apple Silicon) pre-built binary
   on_macos do
     on_arm do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-console-v0.9.0/trusty-console-0.9.0-aarch64-apple-darwin.tar.gz"
-      sha256 "fdc385a87b69537b7c95af85cdc0fe598b379eec9024ae30df97c140e99bfbd4"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-console-v0.9.1/trusty-console-0.9.1-aarch64-apple-darwin.tar.gz"
+      sha256 "f5f6e5a54dda56f9b3a9f5d5262545dbb83b71892c60c1488c4d01e4407cbeec"
     end
   end
 
   # Linux x86_64 (glibc 2.17+) pre-built binary
   on_linux do
     on_intel do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-console-v0.9.0/trusty-console-0.9.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f1554b986cf65cec8a2380a5b9ee33f6083e972f9f62f209d79652305ca4a419"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-console-v0.9.1/trusty-console-0.9.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c2984ac80ef33396083ec209f4eefedab5f5cdea7298ab821a89865c3ffc7915"
     end
   end
 
