@@ -5,21 +5,21 @@
 class TrustySearch < Formula
   desc "trusty-tools: trusty-search binary"
   homepage "https://github.com/bobmatnyc/trusty-tools"
-  version "0.52.0"
+  version "0.54.2"
 
   # macOS arm64 (Apple Silicon) pre-built binary
   on_macos do
     on_arm do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-search-v0.52.0/trusty-search-0.52.0-aarch64-apple-darwin.tar.gz"
-      sha256 "214c2ce5568c3c56350bdb9e5eeab8de31bfc9b399f0acdbefffb946720dbcb2"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-search-v0.54.2/trusty-search-0.54.2-aarch64-apple-darwin.tar.gz"
+      sha256 "0ebf074af34d891ae28b50aea556a46d0d9cff8d93b0aa04a58cdc192c835006"
     end
   end
 
   # Linux x86_64 (glibc 2.17+) pre-built binary
   on_linux do
     on_intel do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-search-v0.52.0/trusty-search-0.52.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "11b7c6008b5cfae6501f7e3f255c45cea0fa4df61dbef327644a4ab79d3a8ba9"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-search-v0.54.2/trusty-search-0.54.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8041b65b91de98ab1a0b46fb05ba8b73e8668a0580f6e34f3daf6a36b6a2e1f2"
     end
   end
 
