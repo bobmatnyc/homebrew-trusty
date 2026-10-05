@@ -5,23 +5,23 @@
 class TrustyMpm < Formula
   desc "trusty-tools: trusty-mpm binary"
   homepage "https://github.com/bobmatnyc/trusty-tools"
-  version "1.7.10"
+  version "1.7.11"
 
   depends_on "rtk"
 
   # macOS arm64 (Apple Silicon) pre-built binary
   on_macos do
     on_arm do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-mpm-v1.7.10/trusty-mpm-1.7.10-aarch64-apple-darwin.tar.gz"
-      sha256 "9f5648ad539c67c74f948c5ffc281887d57d392e1620ad0628d79db6c85eae01"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-mpm-v1.7.11/trusty-mpm-1.7.11-aarch64-apple-darwin.tar.gz"
+      sha256 "2124170309fac792af0b223a0c87fadb552ab86a2b44535c062ad2339906c3fd"
     end
   end
 
   # Linux x86_64 (glibc 2.17+) pre-built binary
   on_linux do
     on_intel do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-mpm-v1.7.10/trusty-mpm-1.7.10-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "791b2edcf1d0d367288afd5127959ccb54b8757a801142c52623bf4e2707aedc"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-mpm-v1.7.11/trusty-mpm-1.7.11-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "22c108b6a3a91a751fa47431603fd1e1541e986515d1cd5b1e85cb8821bf1144"
     end
   end
 
