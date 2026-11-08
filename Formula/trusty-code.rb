@@ -5,21 +5,21 @@
 class TrustyCode < Formula
   desc "trusty-tools: trusty-code binary"
   homepage "https://github.com/bobmatnyc/trusty-tools"
-  version "0.7.0"
+  version "0.8.0"
 
   # macOS arm64 (Apple Silicon) pre-built binary
   on_macos do
     on_arm do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-code-v0.7.0/trusty-code-0.7.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a8ca1dbbb182ac703ae7d7313182102e7c0b68d1e19250a0c663025f4cfc450e"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-code-v0.8.0/trusty-code-0.8.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e9d62e37b7d9950585a85a8ce221a4f6d86be8adc9bdf681b2747c033acdc75f"
     end
   end
 
   # Linux x86_64 (glibc 2.17+) pre-built binary
   on_linux do
     on_intel do
-      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-code-v0.7.0/trusty-code-0.7.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b5d38b685b98bdcacb7ef436e704f060ee6992f1eedcc744b791c71e45bd474c"
+      url "https://github.com/bobmatnyc/trusty-tools/releases/download/trusty-code-v0.8.0/trusty-code-0.8.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fb57077eae23f2cc4d773cf013c1489e4ae59f33a28b39d5f4aca3f798a1a2b0"
     end
   end
 
